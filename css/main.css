@@ -1,0 +1,73 @@
+@font-face {
+    font-family: minecraftFont;
+    src: url(../fonts/minecraft_font.ttf), format(ttf);
+  }
+
+body  {
+    background-color: lightblue;
+}
+
+#navbar {
+    font-family: minecraftFont;
+  }
+
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("../img/woodblock.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+  
+#navbar li {
+    float: left;
+    font-size: 24px;
+    text-shadow: 2px 2px black;
+    font-family: 'minecraftFont' !important;
+}
+  
+#navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+
+}
+  
+#navbar a:hover {
+    background-color: #111;
+    background-image: url("../img/stripped_oak_log.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+#mainContent {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#topcontent {
+    text-align: center;
+    margin-top: 75px;
+}
+
+#section1 {
+    
+}
+
+#section1 img {
+    float: left;
+}
+
+#section1 p {
+    margin-left: 450px;
+    margin-right: 350px;
+}
+
+.center {
+    border: 5px solid #FFFF00;
+    text-align: center;
+    }
