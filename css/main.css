@@ -1,6 +1,11 @@
 @font-face {
     font-family: minecraftFont;
-    src: url(../fonts/minecraft_font.ttf), format(ttf);
+    src: url('../fonts/minecraft_font.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/minecraft_font.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/minecraft_font.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/minecraft_font.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/minecraft_font.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/minecraft_font.svg#svgFontName') format('svg'); /* Legacy iOS */
   }
 
 body  {
